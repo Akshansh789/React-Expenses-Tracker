@@ -1,4 +1,4 @@
-import { isContentEditable } from "@testing-library/user-event/dist/utils/edit/isContentEditable";
+
 import ExpensesItem from "./components/ExpenseItem";
 
 function App() {
@@ -9,22 +9,22 @@ function App() {
         title: 'Toilet Paper',
         amount: 94.12,
         date: new Date(2020, 7, 14),
-        location: Ratal,
+        location: 'Ratlam',
       },
-      { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12), location: 'Ratlam'},
+      { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12), location: 'Ratlam',},
       {
         id: 'e3',
         title: 'Car Insurance',
         amount: 294.67,
         date: new Date(2021, 2, 28),
-        location: Dubai,
+        location: 'Dubai',
       },
       {
         id: 'e4',
         title: 'New Desk (Wooden)',
         amount: 450,
         date: new Date(2021, 5, 12),
-        location: Pakistan,
+        location: 'Pakistan',
       },
     ];
 
